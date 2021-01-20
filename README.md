@@ -32,7 +32,7 @@ https://fbc-react-calculator.herokuapp.com/
 ## Technologies Used
 
 - React.js
-- HTMl
+- HTML
 - CSS
 - Create-React-App
 
