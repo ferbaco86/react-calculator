@@ -4,10 +4,8 @@ import Display from './Display';
 function App() {
   return (
     <>
-      <div>
-        <Display />
-        <ButtonPanel />
-      </div>
+      <Display />
+      <ButtonPanel />
     </>
   );
 }
