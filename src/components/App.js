@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <div>
-        <Display result={15} />
+        <Display />
       </div>
     </>
   );
