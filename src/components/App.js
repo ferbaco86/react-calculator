@@ -1,3 +1,4 @@
+import ButtonPanel from './ButtonPanel';
 import Display from './Display';
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <>
       <div>
         <Display />
+        <ButtonPanel />
       </div>
     </>
   );
