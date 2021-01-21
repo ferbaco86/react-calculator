@@ -1,21 +1,33 @@
+import { Component } from 'react';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
 import calculate from '../logic/calculate';
 
-function App() {
-  return (
-    <>
-      <Display />
-      <ButtonPanel />
-    </>
-  );
+export default class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(buttonName) {
+    const calculation = calculate(this.state, buttonName);
+    this.setState(calculation);
+  }
+
+  render() {
+    const { total } = this.state;
+    return (
+      <>
+        <Display result={total} />
+        <ButtonPanel clickHandler={this.handleClick} />
+      </>
+    );
+  }
 }
-
-const data = {
-  total: 0,
-  next: 0,
-  operation: '',
-};
-calculate(data, '-');
-
-export default App;
