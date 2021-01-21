@@ -11,6 +11,11 @@ function App() {
   );
 }
 
-calculate(0, 0, '-');
+const data = {
+  total: 0,
+  next: 0,
+  operation: '',
+};
+calculate(data, '-');
 
 export default App;
