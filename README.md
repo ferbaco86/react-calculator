@@ -1,5 +1,8 @@
 # React-Calculator
-A basic calculator made with create-react-app for learning purposes
+A basic calculator made with create-react-app for learning purposes where the user can perform some basic math operations
+
+## Screenshots
+![screen1](https://user-images.githubusercontent.com/52765379/105424503-3f925780-5c26-11eb-9527-7e576cba5b66.png)
 
 ## Running the project
 
@@ -35,6 +38,14 @@ https://fbc-react-calculator.herokuapp.com/
 - HTML
 - CSS
 - Create-React-App
+
+## Potential Features
+
+* Add responsiveness
+
+* Limit the number length
+
+* Add more operations 
 
 
 ## Contributors
