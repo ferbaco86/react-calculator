@@ -22,9 +22,6 @@ const operate = (numberOne, numberTwo, operation) => {
         total = valueOne.div(valueTwo);
       }
       break;
-      // case '%':
-      //   total = valueOne.div(100);
-      //   break;
 
     default:
       break;

@@ -18,7 +18,6 @@ export default class App extends Component {
   }
 
   handleClick(buttonName) {
-    // const calculation = calculate(this.state, buttonName);
     this.setState(state => calculate(state, buttonName));
   }
 

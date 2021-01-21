@@ -1,3 +1,47 @@
+* {
+  font-family: monospace;
+}
+
 body {
   color: goldenrod;
+  background-color: black;
+  font-size: 2.2rem;
+}
+
+#root {
+  width: max-content;
+  margin: 0 auto;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  margin: 5px;
+  font-size: 2rem;
+  color: whitesmoke;
+}
+
+h1 {
+  text-align: right;
+}
+
+#operations > button {
+  background-color: #f8961e;
+  color: whitesmoke;
+}
+
+.side_operations > :last-child{
+  background-color: #f8961e;
+  color: whitesmoke;
+}
+
+.last_row > button,
+.side_operations > button {
+  background-color: #333533;
+}
+
+
+.last_row > :last-child {
+  background-color: #43aa8b;
 }
