@@ -26,12 +26,7 @@ h1 {
   text-align: right;
 }
 
-#operations > button {
-  background-color: #f8961e;
-  color: whitesmoke;
-}
-
-.side_operations > :last-child{
+.side_operations > :last-child {
   background-color: #f8961e;
   color: whitesmoke;
 }
@@ -41,7 +36,11 @@ h1 {
   background-color: #333533;
 }
 
-
 .last_row > :last-child {
   background-color: #43aa8b;
+}
+
+#operations > button {
+  background-color: #f8961e;
+  color: whitesmoke;
 }
