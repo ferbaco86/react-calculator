@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unused-state */
 import { Component } from 'react';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
@@ -17,15 +18,15 @@ export default class App extends Component {
   }
 
   handleClick(buttonName) {
-    const calculation = calculate(this.state, buttonName);
-    this.setState(calculation);
+    // const calculation = calculate(this.state, buttonName);
+    this.setState(state => calculate(state, buttonName));
   }
 
   render() {
-    const { total } = this.state;
+    const { total, next } = this.state;
     return (
       <>
-        <Display result={total || '0'} />
+        <Display result={next || total || '0'} />
         <ButtonPanel clickHandler={this.handleClick} />
       </>
     );
