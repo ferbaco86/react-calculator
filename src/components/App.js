@@ -25,7 +25,7 @@ export default class App extends Component {
     const { total } = this.state;
     return (
       <>
-        <Display result={total} />
+        <Display result={total || '0'} />
         <ButtonPanel clickHandler={this.handleClick} />
       </>
     );
