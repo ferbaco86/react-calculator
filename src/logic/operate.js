@@ -16,14 +16,11 @@ const operate = (numberOne, numberTwo, operation) => {
       total = valueOne.times(valueTwo);
       break;
     case '÷':
-      if (valueTwo === 0) {
+      if (numberTwo === '0') {
         total = "Can't divide by zero";
       } else {
         total = valueOne.div(valueTwo);
       }
-      break;
-    case '%':
-      total = valueOne.div(100);
       break;
 
     default:
