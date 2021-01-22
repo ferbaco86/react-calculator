@@ -6,7 +6,15 @@ A basic calculator made with create-react-app for learning purposes where the us
 
 ## Running the project
 
-In the project directory, you can run:
+To get a local copy use this command on your terminal:
+
+### `git clone git@github.com:ferbaco86/react-calculator.git`
+
+Then run
+
+### `npm install`
+
+Now in the project directory, you can run:
 
 ### `npm start`
 
