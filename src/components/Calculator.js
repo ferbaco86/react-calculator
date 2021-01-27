@@ -9,13 +9,12 @@ const CalculatorContainer = styled.div`
 display:flex
 flex-direction:column;
 width: 700px;
-margin-top: 1.5rem;
 border: 4px solid white`;
 
 const ContentContainer = styled.section`
 display: flex;
 justify-content: space-between;
-padding: 1.5rem`;
+padding: 4.5rem`;
 
 const CalculatorTitle = styled.h1`
 font-size: 3rem;

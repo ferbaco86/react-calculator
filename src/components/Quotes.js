@@ -5,7 +5,7 @@ import NavBar from './NavBar';
 const QuoteTitle = styled.h1`
 font-size: 2.6rem;
 text-align: center;
-padding: 1.5rem;
+padding: 4.5rem;
 margin-top: 10rem;
 color: white;`;
 
