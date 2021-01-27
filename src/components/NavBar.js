@@ -11,11 +11,11 @@ align-items: center;
 
 const Logo = styled.h1`
 color: #e9c46a;
-padding-left: 1.5rem;
+padding-left: 4.5rem;
 font-size: 1.7rem;`;
 
 const LinksContainer = styled.div`
-padding: 1.5rem;
+padding: 1.5rem 4.5rem;
 font-size: 1.4rem;`;
 
 const StyledLink = styled(Link)`
