@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <nav
+    className="sc-eCssSg Gekms"
+  >
+    <h1
+      className="sc-jSgupP iDfkkF"
+    >
+      Math Magicians
+    </h1>
+    <div
+      className="sc-gKsewC byXJbQ"
+    >
+      <a
+        className="sc-iBPRYJ gGhErT"
+        href="/"
+        onClick={[Function]}
+      >
+        Home 
+      </a>
+      <a
+        className="sc-iBPRYJ gGhErT"
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator 
+      </a>
+      <a
+        className="sc-iBPRYJ gGhErT"
+        href="/quotes"
+        onClick={[Function]}
+      >
+        Quotes 
+      </a>
+    </div>
+  </nav>,
+  <section
+    className="sc-pFZIQ cVGtXw"
+  >
+    <h1
+      className="sc-jrAGrp fppAqa"
+    >
+      Let's do some math!
+    </h1>
+    <div
+      className="sc-fubCfw gPJKOk"
+    >
+      <div
+        className="sc-dlfnbm eSRZFs"
+      >
+        <h1
+          className="sc-hKgILt gKwUdW"
+        >
+          0
+        </h1>
+      </div>
+      <div
+        className="sc-gsTCUz hUkXMX"
+      >
+        <button
+          className="sc-bdfBwQ iodbGc"
+          onClick={[Function]}
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          className="sc-bdfBwQ iodbGc"
+          onClick={[Function]}
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          className="sc-bdfBwQ iodbGc"
+          onClick={[Function]}
+          type="button"
+        >
+          %
+        </button>
+        <button
+          className="sc-bdfBwQ gsJDyK"
+          onClick={[Function]}
+          type="button"
+        >
+          ÷
+        </button>
+      </div>
+      <div
+        className="sc-gsTCUz hUkXMX"
+      >
+        <button
+          className="sc-bdfBwQ iodbGc"
+          onClick={[Function]}
+          type="button"
+        >
+          7
+        </button>
+        <button
+          className="sc-bdfBwQ iodbGc"
+          onClick={[Function]}
+          type="button"
+        >
+          8
+        </button>
+        <button
+          className="sc-bdfBwQ iodbGc"
+          onClick={[Function]}
+          type="button"
+        >
+          9
+        </button>
+        <button
+          className="sc-bdfBwQ gsJDyK"
+          onClick={[Function]}
+          type="button"
+        >
+          x
+        </button>
+      </div>
+      <div
+        className="sc-gsTCUz hUkXMX"
+      >
+        <button
+          className="sc-bdfBwQ iodbGc"
+          onClick={[Function]}
+          type="button"
+        >
+          4
+        </button>
+        <button
+          className="sc-bdfBwQ iodbGc"
+          onClick={[Function]}
+          type="button"
+        >
+          5
+        </button>
+        <button
+          className="sc-bdfBwQ iodbGc"
+          onClick={[Function]}
+          type="button"
+        >
+          6
+        </button>
+        <button
+          className="sc-bdfBwQ gsJDyK"
+          onClick={[Function]}
+          type="button"
+        >
+          -
+        </button>
+      </div>
+      <div
+        className="sc-gsTCUz hUkXMX"
+      >
+        <button
+          className="sc-bdfBwQ iodbGc"
+          onClick={[Function]}
+          type="button"
+        >
+          1
+        </button>
+        <button
+          className="sc-bdfBwQ iodbGc"
+          onClick={[Function]}
+          type="button"
+        >
+          2
+        </button>
+        <button
+          className="sc-bdfBwQ iodbGc"
+          onClick={[Function]}
+          type="button"
+        >
+          3
+        </button>
+        <button
+          className="sc-bdfBwQ gsJDyK"
+          onClick={[Function]}
+          type="button"
+        >
+          +
+        </button>
+      </div>
+      <div
+        className="sc-gsTCUz hUkXMX"
+      >
+        <button
+          className="sc-bdfBwQ iodbKq"
+          onClick={[Function]}
+          type="button"
+        >
+          0
+        </button>
+        <button
+          className="sc-bdfBwQ iodbGc"
+          onClick={[Function]}
+          type="button"
+        >
+          .
+        </button>
+        <button
+          className="sc-bdfBwQ gsJDyK"
+          onClick={[Function]}
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </section>,
+]
+`;

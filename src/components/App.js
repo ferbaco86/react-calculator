@@ -19,7 +19,7 @@ const App = () => (
   <>
     <NavBar />
     <HeroContainer>
-      <HeroTitle>WELCOME TO OUR SITE</HeroTitle>
+      <HeroTitle data-testid="welcome">WELCOME TO OUR SITE</HeroTitle>
       <HeroText>
         Lorem ipsum dolor sit amet, consectetur adipiscing
         elit, sed do eiusmod tempor incididunt ut labore et dolore
