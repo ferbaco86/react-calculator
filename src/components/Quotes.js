@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import NavBar from './NavBar';
+import data from '../quotes.json';
 
 const QuoteTitle = styled.h1`
 font-size: 2.6rem;
@@ -11,24 +12,14 @@ color: white;`;
 
 const Quotes = () => {
   const randomNumber = Math.round(Math.random() * 20);
-  const [quote, setQuote] = useState('');
-  const getQuotes = () => {
-    fetch('quotes.json', {
-      headers: {
-        'Content-Type': 'application/json',
-        Accept: 'application/json',
-      },
-    }).then(response => response.json()).then(myJson => {
-      setQuote(myJson);
-    });
-  };
+  const [quote, setQuote] = useState('Here comes the Math Quotes');
   useEffect(() => {
-    getQuotes();
+    setQuote(data[randomNumber]);
   }, []);
   return (
     <>
       <NavBar />
-      <QuoteTitle>{quote[randomNumber]}</QuoteTitle>
+      <QuoteTitle data-testid="quote">{quote}</QuoteTitle>
     </>
   );
 };

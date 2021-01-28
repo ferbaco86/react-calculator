@@ -36,6 +36,10 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
+### `npm test`
+
+Run the tests included in the project
+
 ## Live Version
 
 https://fbc-react-calculator.herokuapp.com/

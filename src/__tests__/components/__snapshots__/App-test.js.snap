@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <nav
+    className="sc-bdfBwQ eOkbzq"
+  >
+    <h1
+      className="sc-gsTCUz joJsAy"
+    >
+      Math Magicians
+    </h1>
+    <div
+      className="sc-dlfnbm XLyPB"
+    >
+      <a
+        className="sc-hKgILt iUuVZI"
+        href="/"
+        onClick={[Function]}
+      >
+        Home 
+      </a>
+      <a
+        className="sc-hKgILt iUuVZI"
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator 
+      </a>
+      <a
+        className="sc-hKgILt iUuVZI"
+        href="/quotes"
+        onClick={[Function]}
+      >
+        Quotes 
+      </a>
+    </div>
+  </nav>,
+  <section
+    className="sc-eCssSg hzVQOI"
+  >
+    <h1
+      className="sc-jSgupP gOOBPz"
+      data-testid="welcome"
+    >
+      WELCOME TO OUR SITE
+    </h1>
+    <p
+      className="sc-gKsewC dWFBOh"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <p
+      className="sc-gKsewC dWFBOh"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </section>,
+]
+`;
